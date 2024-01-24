@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    margin-block: 30px;
+    font-size: 2rem;
+}
+
+main {
+    background-color: #E7E8D1;
+    margin-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 5px;
+}
+
+h2 {
+    
+}
+
+.btn-roll {
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: hsl(114, 34%, 31%);
+    transition: background-color 0.25s;
+}
+
+.btn-roll:hover {
+    background-color: hsl(114, 34%, 20%);
+}
+
+.
