@@ -3,6 +3,8 @@
 
 ## Screenshots
 
-![App Image](/app_images/start.png)
-![App Image](/app_images/increment.png)
-![App Image](/app_images/mobile.png)
+![App Image](./app_images/start.png)
+
+![App Image](./app_images/increment.png)
+
+![App Image](./app_images/mobile.png)
