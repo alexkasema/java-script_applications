@@ -21,10 +21,6 @@ main {
     border-radius: 5px;
 }
 
-h2 {
-    
-}
-
 .btn-roll {
     cursor: pointer;
     font-size: 2rem;
@@ -39,5 +35,3 @@ h2 {
 .btn-roll:hover {
     background-color: hsl(114, 34%, 20%);
 }
-
-.
