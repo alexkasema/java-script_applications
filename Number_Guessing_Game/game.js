@@ -6,11 +6,14 @@ const answer = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
 
 let attempts = 0;
 let guess;
+
 let playAgain = true;
+
+let playerName = window.prompt(`What's your name?`)
 
 while (playAgain) {
 
-    guess = window.prompt(`Guess a number between ${minNum} and ${maxNum}`);
+    guess = window.prompt(`Guess a number between ${minNum} - ${maxNum} ${playerName}`);
     guess = Number(guess);
     
     if (isNaN(guess)) {
