@@ -12,13 +12,27 @@ body {
 
 main {
     background-color: #E7E8D1;
-    margin-inline: 20px;
+    max-width: 500px;
+    margin-inline: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
     border-radius: 5px;
+}
+
+img {
+    width: 50px;
+}
+
+.dice-input {
+    width: 50%;
+    font-size: 2rem;
+    text-align: center;
+    border: 2px solid hsla(0, 0%, 0%, 0.473);
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 .btn-roll {
@@ -34,4 +48,8 @@ main {
 
 .btn-roll:hover {
     background-color: hsl(114, 34%, 20%);
+}
+
+.btn-roll:active {
+    background-color: hsl(114, 34%, 50%);
 }
