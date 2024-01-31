@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.display {
+    font-size: 4rem;
+    font-family: monospace;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 2rem;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.start-btn {
+    background-color: hsl(114, 34%, 31%);
+    transition: background-color 0.25s;
+}
+
+.reset-btn {
+    background-color: hsl(65, 42%, 69%);
+    transition: background-color 0.25s;
+}
+
+.stop-btn {
+    background-color: hsl(42, 73%, 59%);
+    transition: background-color 0.25s;
+}
+
+.stop-btn:hover {
+    background-color: hsl(42, 73%, 40%);
+}
+
+.reset-btn:hover {
+    background-color: hsl(65, 42%, 50%);
+}
+
+.start-btn:hover {
+    background-color: hsl(114, 34%, 20%);
+}
+

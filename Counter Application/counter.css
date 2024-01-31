@@ -36,16 +36,16 @@ body {
 
 .btn-decrease {
     background-color: hsl(42, 73%, 59%);
-    transition: background-color 0.25s;
+    transition: background-color 0.25s ease;
 }
 
 .btn-reset {
     background-color: hsl(65, 42%, 69%);
-    transition: background-color 0.25s;
+    transition: background-color 0.25s ease;
 }
 .btn-increase {
     background-color: hsl(114, 34%, 31%);
-    transition: background-color 0.25s;
+    transition: background-color 0.25s ease;
 }
 
 .btn-decrease:hover {
