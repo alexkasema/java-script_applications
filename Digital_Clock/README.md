@@ -2,4 +2,4 @@
 * A function that displays the clock.
 
 ## Screenshot
-![app images]("./app_images/time.png")
+![App Image]("./app_images/time.png")
